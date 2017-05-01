@@ -1,0 +1,108 @@
+
+
+body {
+    
+    margin: 0 auto;
+    text-align: auto;
+    margin-left: 20%;
+    width: 940px;
+    font: 17px/22px Helvetica, Arial, sans-serif;
+
+}
+
+.resume_body {
+        display: table; width: 80%;
+        margin-top: 5px
+
+ }
+
+.Header_Box{
+    padding-top: 50px;
+    width:100%;
+    height:200px;
+    background:#F7C331;
+    margin:100px auto;
+    text-align: center;
+}
+
+/*==================================================
+ * Effect 5
+ * ===============================================*/
+.effect5
+{
+  position: relative;
+}
+.effect5:before, .effect5:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 25px;
+  left: 10px;
+  width: 80%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  box-shadow: 0 35px 20px #777;
+  transform: rotate(-8deg);
+}
+
+.effect5:after
+{
+  transform: rotate(8deg);
+  right: 10px;
+  left: auto;
+}
+
+
+ 
+h2 {
+    font-size: 28px;
+    line-height: 44px;
+    padding: 3px 0;
+}
+ 
+h3 {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 3px 0;
+}
+ 
+h1, h2 ,h3{
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+p {
+    padding-bottom: 2px;
+}
+
+table {
+color:#fff;
+border-collapse: collapse;
+padding:0 3px;
+border-radius: 5px;
+margin: 25px auto;
+}
+
+td, th {
+height:30px;
+text-align:center;
+padding: 5px 40px;
+border: 1px solid #000;
+width: auto;
+}
+
+th {
+background:#000;
+font-weight:70;
+}
+
+tr td {
+background:#fff;
+color:#000;
+}
+
+
+
+
